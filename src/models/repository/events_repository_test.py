@@ -4,7 +4,7 @@ from .events_repository import EventsRepository
 
 db_connection_handler.connect_to_db()
 
-@pytest.mark.skip(reason="novo registro em banco de dados")
+#@pytest.mark.skip(reason="novo registro em banco de dados")
 def test_insert_event():
     event = {
         "uuid": "meu-uuid-e-nois",
